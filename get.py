@@ -32,7 +32,7 @@ def add_expense():
         writer = csv.writer(file)
         writer.writerow([date, category, amount, desc])
     
-    print("✅ Expense saved successfully!")
+    print(" Expense saved successfully!")
 
 def view_expenses():
     """Reads the CSV and prints all expenses."""
@@ -84,4 +84,5 @@ def main():
             print("Invalid choice, try again.")
 
 if __name__ == "__main__":
+
     main()
